@@ -1,0 +1,43 @@
+:root {
+    --primary: #fff;
+}
+
+.btn {
+    padding: 8px 40px; 
+    border-radius: 2px;
+    outline: none; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.btn--primmary {
+    background-color: var(--primary);
+    color: purple;
+    border: 1px solid var(--primary);
+}
+
+.btn--outline {
+    background-color: lightpink;
+    color: var(--primary); 
+    padding: 8px 20px; 
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.btn-medium {
+    padding: 8px 20px;
+    font-size: 40px; 
+}
+
+.btn--large {
+    padding: 12px 26px; 
+    font-size: 40px;
+}
+
+.btn-medium:hover, 
+.btn--large:hover {
+    background: #fff;
+    color: lightpink;
+    transition: 250ms
+}
+
